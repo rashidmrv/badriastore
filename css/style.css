@@ -38,6 +38,11 @@
             transform: translatey(0);
         }
         
+        .page-banner {
+            background: var(--primary-color);
+            color: #fff;
+        }
+        
         a {
             text-decoration: none;
             color: #fff;
@@ -1496,7 +1501,66 @@
             transition: 0.3s;
         }
         /*  3- contact- page */
-        /*  4- contact- page */
+        /*  4- menu- page */
+        
+        .menu-page {
+            position: relative;
+        }
+        
+        .menu-page .icon1 img {
+            position: absolute;
+            top: 10px;
+            left: 5%;
+            z-index: -1;
+            width: 150px;
+        }
+        
+        .menu-page .icon2 img {
+            position: absolute;
+            top: 10px;
+            right: 5%;
+            z-index: -1;
+            width: 150px;
+        }
+        
+        @media (max-width:767px) {
+            .menu-page .icon1 img {
+                top: 10px;
+                left: 2%;
+                width: 150px;
+            }
+            .menu-page .icon2 img {
+                top: 10px;
+                right: 2%;
+                width: 150px;
+            }
+        }
+        
+        @media (max-width:576px) {
+            .menu-page .icon1 img {
+                top: 100px;
+                left: 0%;
+                width: 120px;
+            }
+            .menu-page .icon2 img {
+                top: 100px;
+                right: 0%;
+                width: 120px;
+            }
+        }
+        
+        @media (max-width:400px) {
+            .menu-page .icon1 img {
+                top: 140px;
+                left: 0%;
+                width: 100px;
+            }
+            .menu-page .icon2 img {
+                top: 140px;
+                right: 0%;
+                width: 100px;
+            }
+        }
         
         .menu-page .card-footer .btn {
             font-size: 15px;
@@ -1529,7 +1593,17 @@
             transition: 0.3s;
         }
         
+        .menu-page .card img {
+            height: 180px;
+        }
+        
+        @media (max-width:400px) {
+            .menu-page .card img {
+                height: 150px;
+            }
+        }
+        
         .menu-page .card:hover {
             box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
         }
-        /*  4- contact- page */
+        /*  4- menu- page */
