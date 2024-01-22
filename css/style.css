@@ -163,6 +163,7 @@
         background: #ffffff;
         background-attachment: fixed;
         overflow-x: hidden;
+        font-family: 'Cairo';
     }
     
     .whatsapp {
