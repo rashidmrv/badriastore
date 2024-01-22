@@ -1,4 +1,6 @@
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+    /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&display=swap'); */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
      :root {
         /* --primary-color: #ea6b23; */
         --primary-color: #9e2582;
@@ -45,7 +47,6 @@
     
     a {
         text-decoration: none;
-        color: #fff;
     }
     
     ul {
@@ -1314,10 +1315,6 @@
             font-size: 35px;
         }
     }
-    /* .contact .info p {
-    font-size: 17px;
-    font-weight: 400;
-} */
     
     .contact .contact-form {
         border: 1px solid rgba(234, 107, 35, 0.3);
@@ -1385,6 +1382,13 @@
         .contact .img img {
             width: 350px;
         }
+    }
+    
+    .contact .contact-form input:focus,
+    textarea:focus {
+        outline: 1px solid rgba(234, 107, 35, 0.3);
+        box-shadow: 0px 0px 3px var(--primary-color);
+        /* outline: none; */
     }
     /* contact - section -end */
     /* gallery slider */
@@ -1489,11 +1493,15 @@
             justify-content: center;
         }
     }
+    
+    footer .social-media i {
+        font-size: 25px;
+        margin: 0 15px;
+        color: #000;
+    }
     /*  2 - about- page */
     
     .about-page .about-content .img img {
-        /* height: 400px;
-        width: 500px; */
         width: 100%;
         max-height: 500px;
     }
